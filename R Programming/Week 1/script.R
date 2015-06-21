@@ -1,0 +1,1 @@
+thisAnswer = mean(thisDataFrame[(thisDataFrame[1:153,1]>31) & (thisDataFrame[1:153,4]>90) & (!is.na(thisDataFrame[1:153,1])) & (!is.na(thisDataFrame[1:153,4])) & (!is.na(thisDataFrame[1:153,2])),2])
